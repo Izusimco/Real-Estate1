@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body{
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+  }
+.navbar-brand{
+    color: blue;
+    margin-left: 50px;
+}
+a{
+   text-decoration: none;
+}
+ .navbar-nav{
+    margin-right: 50px;
+ }
+.find{
+    color: white;
+    font-size: 600px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-style: inherit;
+      }
+
+ .card-img-top{
+   width: 415px;
+   height: 200px;
+}
+.contact-info{
+   margin-top: 100px;
+   display: flex;
+   justify-content: space-between;
+   flex-direction: row;
+}
+
+@media (max-width: 768px) {
+   .contact-info {
+     flex-direction: column;
+   }
+ }
+.search{
+   margin-left: 50px;
+}
+
+.footer{
+position: fixed;
+left: 50%;
+transform: translateX(-50%);
+width: 100%;
+bottom: 0;
+}
+
+.navbar-brand{
+   font-size: x-large;
+}
