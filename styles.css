@@ -27,16 +27,13 @@ a{
     transform: translate(-50%, -50%);
     font-style: inherit;
       }
-
- .card-img-top{
-   width: 415px;
-   height: 200px;
-}
 .contact-info{
    margin-top: 100px;
    display: flex;
    justify-content: space-between;
    flex-direction: row;
+   margin-bottom: 200px;
+   
 }
 
 @media (max-width: 768px) {
@@ -59,3 +56,13 @@ bottom: 0;
 .navbar-brand{
    font-size: x-large;
 }
+@media (max-width: 480px) {
+   .card-img-top {
+     max-width: 100%;
+     height: auto;
+   }
+ }
+ .card-img-top{
+   width: 400px;
+   height: 350px ;
+ }
