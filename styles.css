@@ -6,7 +6,6 @@
 .body{
     font-family: 'Lato', sans-serif;
     font-weight: bold;
-    font-style: italic;
   }
 .navbar-brand{
     color: blue;
@@ -46,23 +45,27 @@ a{
 }
 
 .footer{
-position: fixed;
-left: 50%;
-transform: translateX(-50%);
-width: 100%;
-bottom: 0;
+   position: fixed;
+   left: 50%;
+   transform: translateX(-50%);
+   width: 100%;
+   bottom: 0;
 }
 
 .navbar-brand{
    font-size: x-large;
 }
-@media (max-width: 480px) {
-   .card-img-top {
-     max-width: 100%;
-     height: auto;
-   }
- }
+
  .card-img-top{
    width: 400px;
    height: 350px ;
+ }
+ .footer1{
+   position: relative;
+   left: 50%;
+   transform: translateX(-50%);
+   width: 100%;
+   bottom: 0;
+   padding-top: 8px ;
+   padding-bottom: 3px;
  }
